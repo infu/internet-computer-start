@@ -2,7 +2,7 @@
 
 Search for 'Internet Base' in VS Code extensions.
 
-After installing, clone this repository and open ./local_motoko.blast
+Once installed, clone this repository and open ./local_motoko.blast
 
 Preview:
 
