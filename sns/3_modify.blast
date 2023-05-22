@@ -1,0 +1,1 @@
+{"cells":[{"kind":2,"language":"javascript","value":"// TO BE DONE\n\n\n// let local = icblast({ identity, local: true, local_host: \"http://localhost:8080\" });\n\n// let fe = await local(\"txssk-maaaa-aaaaa-aaanq-cai\");\n\n// await fe.list({}).then(log);\n"}]}

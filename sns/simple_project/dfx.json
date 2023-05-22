@@ -1,0 +1,14 @@
+{
+  "canisters": {
+    "frontend": {
+      "frontend": {
+        "entrypoint": "frontend/index.html"
+      },
+      "source": ["frontend/"],
+      "type": "assets"
+    },
+    "hello_world": {
+      "main": "backend/main.mo"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<style>
+.rotatingText {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+.rotatingText-adjective {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  left: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.rotatingText-adjective:nth-of-type(1) {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+
+.rotatingText-adjective:nth-of-type(2) {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 1.75s;
+}
+
+.rotatingText-adjective:nth-of-type(3) {
+  animation-name: rotate-last;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  
+  20%, 80% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -25px, 0);
+  }
+}
+
+@keyframes rotate-last {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  
+  50%, 100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+</style>
+<div style='font-size:80vh;text-align:center;'>☮</div>
+
+<p class="rotatingText">
+    <span class="rotatingText-adjective">beautiful</span>
+    <span class="rotatingText-adjective">decentralized</span>
+    <span class="rotatingText-adjective">perfect 👌</span>
+  </p>
