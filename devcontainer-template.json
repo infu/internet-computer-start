@@ -1,0 +1,10 @@
+{
+  "id": "ic",
+  "version": "1.0.0",
+  "name": "Internet Computer",
+  "description": "Develop decentralized web3 dapps",
+  "documentationURL": "https://github.com/vvv-interactive/ibdev/",
+  "licenseURL": "https://github.com/vvv-interactive/ibdev/",
+  "options": {},
+  "platforms": ["Any"]
+}
