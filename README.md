@@ -1,9 +1,15 @@
-# Internet Base VS Code extension examples
+# Internet Base
 
-Search for 'Internet Base' in VS Code extensions.
+Search & install the 'Internet Base' VS Code extensions, so you can open .blast files.
 
-Once installed, clone this repository and open ./motoko/local_motoko.blast
+## Running in dev container
 
-Preview:
+Search & install the 'Dev Containers' extension.
 
-<img width="1068" alt="image" src="https://github.com/infu/internet-base-vsc-examples/assets/24810/a7ac9b21-ba75-4aa4-b427-b49aefb0b105">
+From the left panel choose 'Remote Explorer'
+
+Then click 'Open Folder in Container' and 'Open'. It may take a while the first time you do that.
+
+You are in a container made by us which has everything you need to develop on the Internet Computer. Its files are inside `.devcontainer`
+
+It also installs Blast Node Kernel so you can run .blast files inside it. Not using that Kernel while using readFile and readDir will result in errors.
