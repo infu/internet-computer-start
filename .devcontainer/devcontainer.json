@@ -1,6 +1,13 @@
 {
-  "name": "internetbase",
-  "build": {
-    "dockerfile": "Dockerfile"
-  }
+	"name": "internetbase",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"internetbase.internet-base-dev-kernel"
+			]
+		}
+	}
 }
