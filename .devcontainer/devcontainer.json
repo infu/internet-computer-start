@@ -6,6 +6,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"internetbase.internet-base",
 				"internetbase.internet-base-dev-kernel"
 			]
 		}
