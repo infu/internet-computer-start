@@ -1,11 +1,16 @@
 # Internet Base IDE for the Internet Computer
 
-This repository contains a Dev Container (optional) and Blast examples interfacing with the Internet Computer.
+This repository contains a Dev Container (optional) and Blast examples.
 
-Search & install the 'Internet Base' VS Code extensions, so you can open .blast files.
-<img width="806" alt="image" src="https://github.com/infu/internet-base-vsc-examples/assets/24810/35236984-eb71-4cb3-9578-b09aee8b2890">
+## Run in VS Code
 
-## Running in Dev Container
+Search & install the 'Internet Base' and 'IB Blast Node Kernel' VS Code extensions, so you can open .blast files.
+
+## Run in Codespaces
+
+<img width="306" alt="image" src="https://github.com/infu/internet-base-vsc-examples/assets/24810/942ef446-c80d-41bb-a749-da904723f5f6">
+
+## Run locally in VS Code Dev Container
 
 If you use this to start a new project inside a Dev Container, you can delete everything except the `.devcontainer` directory.
 
