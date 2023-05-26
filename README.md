@@ -1,4 +1,4 @@
-# Internet Base IDE for the Internet Computer
+# Internet Computer | Start
 
 This repository contains a Dev Container (optional) and Blast examples.
 
