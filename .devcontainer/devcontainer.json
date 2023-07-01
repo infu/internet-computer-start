@@ -1,12 +1,14 @@
 {
 	"name": "internetbase",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"image":"internetbase/ic:latest",
+	// "build": {
+	// 	"dockerfile": "Dockerfile"
+	// },
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"internetbase.internet-base-dev-kernel"
+				"internetbase.internet-base-dev-kernel",
+				"internetbase.internet-base"
 			]
 		}
 	}

@@ -10,7 +10,7 @@ ENV CARGO_HOME=/opt/cargo
 ENV RUST_VERSION=1.62.0
 ENV IC_CDK_OPTIMIZER_VERSION=0.3.4
 
-ENV DFX_VERSION=0.14.0
+ENV DFX_VERSION=0.14.2
 
 # Install a basic environment needed for our build tools
 RUN apt -yq update && \
